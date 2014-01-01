@@ -21,6 +21,7 @@ setup(
         'parseltone',
         'parseltone.api',
         'parseltone.django',
+        'parseltone.django.apps',
         'parseltone.django.apps.api',
         'parseltone.django.apps.freeswitch',
         'parseltone.django.apps.freeswitch.models',
