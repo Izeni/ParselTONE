@@ -47,7 +47,7 @@ setup(
             'templates/provisioning/polycom/*.xml',
         ],
     },
-    install_requires=['urwid', 'twisted'],
+    install_requires=['urwid', 'twisted', 'django-localflavor],
     scripts=['parseltone/tools/pt_cli'],
     long_description=read('README'),
     classifiers=[
