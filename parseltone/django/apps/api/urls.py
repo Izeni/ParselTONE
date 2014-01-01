@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 
 urlpatterns = patterns('parseltone.django.apps.api.views',
     url(r'^login/', 'login', name='api_login'),
