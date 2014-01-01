@@ -1,5 +1,5 @@
 import os
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 from django.views import static
 
 urls = (patterns('parseltone.django.apps.provisioning.polycom.views',
