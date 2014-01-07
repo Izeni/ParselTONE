@@ -1,6 +1,6 @@
 from django.db import models
-from django.contrib.localflavor.us.forms import USPhoneNumberField
-from django.contrib.localflavor.us.forms import phone_digits_re
+from localflavor.us.forms import USPhoneNumberField
+from localflavor.us.forms import phone_digits_re
 from django.core.validators import EMPTY_VALUES
 from django.utils.encoding import smart_unicode
 from django.utils.translation import ugettext_lazy as _

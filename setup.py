@@ -1,5 +1,5 @@
 import os
-from distutils.core import setup
+from setuptools import setup
 
 # Utility function to read the README file.
 # Used for the long_description.  It's nice, because now 1) we have a top level
@@ -21,6 +21,7 @@ setup(
         'parseltone',
         'parseltone.api',
         'parseltone.django',
+        'parseltone.django.apps',
         'parseltone.django.apps.api',
         'parseltone.django.apps.freeswitch',
         'parseltone.django.apps.freeswitch.models',
@@ -47,7 +48,7 @@ setup(
             'templates/provisioning/polycom/*.xml',
         ],
     },
-    install_requires=['urwid', 'twisted'],
+    install_requires=['urwid', 'twisted', 'django-localflavor'],
     scripts=['parseltone/tools/pt_cli'],
     long_description=read('README'),
     classifiers=[

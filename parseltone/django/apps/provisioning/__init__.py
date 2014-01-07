@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 from parseltone.django.apps.provisioning import polycom
 
 urls = (patterns('',
